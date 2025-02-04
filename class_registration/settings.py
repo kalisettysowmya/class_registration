@@ -58,7 +58,7 @@ ROOT_URLCONF = 'class_registration.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['registration/templates/registration/registered_courses.html'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
